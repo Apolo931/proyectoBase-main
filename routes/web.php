@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AlumnoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,7 +34,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/alumno/consultar', [AlumnoController::class, 'consultar']);
     Route::get('/alumno/registrar', [AlumnoController::class, 'registrar']);
     Route::get('/reporte/pdf', [AlumnoController::class, 'reportePdf']);
-
+    Route::get('/alumno/horario', [AlumnoController::class, 'horario']);
+    
 });
 
 require __DIR__.'/auth.php';

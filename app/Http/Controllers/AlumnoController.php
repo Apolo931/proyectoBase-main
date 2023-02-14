@@ -23,4 +23,9 @@ class AlumnoController extends Controller
         $pdf = PDF::loadView('PDF.reporteGenerico', array('alumnos' => $alumnos)); //Carga la vista y la convierte a PDF
         return $pdf->download("reporteGenerico.pdf"); //Descarga el PDF con ese nombre
     }
+
+    public function horario(){
+        //consulta de horario
+        return view('alumno.horario');
+    }
 }

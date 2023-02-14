@@ -181,15 +181,23 @@
                      with font-awesome or any other icon font library -->
                 <li class="nav-item active">
                   <a href="{{asset('/home')}}" class="nav-link">
-                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <i class="nav-icon fas fa-home"></i>
                     <p>
                       Inicio
                     </p>
                   </a>
                 </li>
+                <li class="nav-item active">
+                  <a href="{{asset('/alumno/horario')}}" class="nav-link">
+                  <i class="nav-icon far fa-calendar"></i> 
+                    <p>
+                      Horario
+                    </p>
+                  </a>
+                </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-users""></i>
+                    <i class="nav-icon fas fa-users"></i>
                     <p>
                        Alumnos
                       <i class="fas fa-angle-left right"></i>
@@ -212,23 +220,29 @@
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                      <i class="nav-icon fas fa-tools""></i>
+                    <i class="nav-icon fas fa-info-circle"></i> 
                       <p>
-                         Otro menu
-                        <i class="fas fa-angle-left right"></i>
+                         Información
+                        <i class="fas fa-angle-left right"></i> 
                       </p>
                     </a>
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
                         <a href="{{asset('')}}" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
-                          <p>Consultar</p>
+                          <p>CETis#107</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="{{asset('')}}" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
-                          <p>Registrar</p>
+                          <p>SISCONED</p>
+                        </a>
+
+                        <li class="nav-item">
+                        <a href="{{asset('')}}" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Carreras técnicas</p>
                         </a>
                       </li>
                     </ul>

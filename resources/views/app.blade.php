@@ -240,18 +240,31 @@
                         </a>
 
                         <li class="nav-item">
-                        <a href="{{asset('')}}" class="nav-link">
+                        <a href="{{asset('/informacion/reglamento')}}" class="nav-link">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Reglamento</p>
+                        </a>
+
+                        <li class="nav-item">
+                          <a href="{{asset('/informacion/carreras')}}" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
                           <p>Carreras técnicas</p>
-                        </a>
+                          </a>
+                        </li>
                       </li>
                     </ul>
-                </li>
-              </ul>
+
+                <br><br><br><br><br><br><br><br>
+                <div style="text-align:center">
+                <i class="fab fa-instagram"></i>
+                </div>
+
+              </ul>       
             </nav>
             <!-- /.sidebar-menu -->
           </div>
           <!-- /.sidebar -->
+          
         </aside>
 
         <div class="content-wrapper" style="background-color: #F3F3F3">
